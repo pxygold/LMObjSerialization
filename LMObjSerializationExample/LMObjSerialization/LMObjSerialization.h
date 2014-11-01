@@ -33,11 +33,11 @@
 + (void)decodeWithCoder:(NSCoder *)decoder obj:(NSObject *)obj;
 
 /**
- *  打印对象的具体信息
+ *  把各属性编码成NSString
  *
  *  @param obj 对象
  *
- *  @return 信息字符串
+ *  @return 一个`NSString`对象
  */
 + (NSString *)descriptionWithObj:(NSObject *)obj;
 @end
